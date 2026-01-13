@@ -1,3 +1,5 @@
+import MyProfil from '../assets/My_profil-removebg-preview.png';
+
 const Hero = () => {
     return (
         <section id="home" className="relative min-h-screen w-full bg-dark-bg flex flex-col md:flex-row items-center px-[8%] pt-20 overflow-hidden">
@@ -35,7 +37,7 @@ const Hero = () => {
                     </div>
 
                    
-                    <div className="absolute bottom-[10%] right-[5%] w-56 h-56 md:w-[400px] md:h-[400px] 
+                    <div className="absolute bottom-[10%] right-[5%] w-56 h-56 md:w-100 md:h-100 
                         bg-white rounded-full z-0 opacity-90
                         animate-[pulse_10s_infinite_ease-in-out]
                         transition-transform duration-1000 group-hover:-translate-x-8 group-hover:-translate-y-4">
@@ -44,14 +46,10 @@ const Hero = () => {
                     
                     <div className="relative z-10 h-full flex items-end md:items-center">
                         <img
-                            src="/src/assets/My_profil-removebg-preview.png"
+                            src={MyProfil}
                             alt="Profil"
-                            className="w-auto h-[500px] md:h-[850px] lg:h-[950px] 
-                           object-contain grayscale hover:grayscale-0 
-                           transition-all duration-700 
-                           drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] 
-                           scale-105 hover:scale-110
-                           translate-y-10 md:translate-y-0"
+                            className="w-auto h-125 md:h-212.5 lg:h-237.5 object-contain grayscale hover:grayscale-0 transition-all 
+                            duration-700 drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] scale-105 hover:scale-110 translate-y-10 md:translate-y-0"
                         />
                     </div>
                 </div>
