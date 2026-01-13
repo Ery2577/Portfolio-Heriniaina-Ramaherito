@@ -1,3 +1,5 @@
+import MyLogo from "../assets/My logo.png";
+
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-[5%] py-2 absolute bg-transparent w-full top-0 left-0 z-50 ">
@@ -5,7 +7,7 @@ const Navbar = () => {
       {/* Logo Section  */}
       <div className="flex items-center gap-4 cursor-default">
         <img 
-            src="/src/assets/My logo.png" 
+            src={MyLogo} 
             alt="Logo" 
             className="w-20 h-20 rounded-full object-cover shadow-md" 
         />
