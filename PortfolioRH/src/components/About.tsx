@@ -1,3 +1,5 @@
+import AboutMe from "../assets/My_profil-removebg-preview.png";
+
 const About = () => {
   return (
     <section id="about" className="min-h-screen w-full bg-dark-bg flex flex-col md:flex-row items-center px-[8%] py-20 gap-16">
@@ -8,16 +10,16 @@ const About = () => {
         <div className="relative group flex justify-center items-end -translate-y-8 md:-translate-y-16">
 
           <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-[110%] md:w-[135%] h-20 
-                    border-[10px] border-neon-green rounded-[100%] z-0
+                    border-10 border-neon-green rounded-[100%] z-0
                     shadow-[0_0_35px_#00ff84,inset_0_0_35px_#00ff84] 
                     animate-[pulse_4s_infinite_ease-in-out]">
           </div>
 
           <div className="relative z-10 transition-all duration-500 group-hover:-translate-y-4">
             <img
-              src="/src/assets/My_profil-removebg-preview.png"
+              src={AboutMe}
               alt="About Me"
-              className="w-auto h-[500px] md:h-[750px] lg:h-[850px] 
+              className="w-auto h-125 md:h-187.5 lg:h-212.5 
                    object-contain drop-shadow-[0_20px_50px_rgba(0,0,0,0.7)]">
             </img>
           </div>
