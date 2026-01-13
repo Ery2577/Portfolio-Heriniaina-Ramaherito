@@ -1,5 +1,7 @@
 export default function Project() {
   return (
-    <section id="" className=""> </section>
+    <section id="project" >
+     
+    </section>
   );
 }
