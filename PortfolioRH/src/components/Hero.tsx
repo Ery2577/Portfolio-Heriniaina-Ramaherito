@@ -24,12 +24,12 @@ const Hero = () => {
             </div>
 
     
-            <div className="flex-1 relative mt-10 md:mt-0 flex justify-center items-center h-[600px] md:h-screen">
+            <div className="flex-1 relative mt-10 md:mt-0 flex justify-center items-center h-150 md:h-screen">
 
                 <div className="relative w-full h-full flex justify-center items-center group">
 
                     
-                    <div className="absolute top-[15%] right-[10%] w-64 h-64 md:w-[450px] md:h-[450px] 
+                    <div className="absolute top-[15%] right-[10%] w-64 h-64 md:w-112.5 md:h-112.5 
                         bg-[#00ff84] rounded-full z-0 
                         shadow-[0_0_50px_rgba(0,255,132,0.4)]
                         animate-[bounce_8s_infinite_ease-in-out]
